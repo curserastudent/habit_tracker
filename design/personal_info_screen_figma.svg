@@ -1,0 +1,50 @@
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="0" y="0" width="390" height="844" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="2"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.16 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="390" height="844" fill="#F5F9FF"/>
+
+  <g id="AppBar">
+    <rect x="0" y="0" width="390" height="88" fill="#0D47A1"/>
+    <text x="195" y="54" text-anchor="middle" fill="white" font-size="22" font-family="Arial, sans-serif" font-weight="700">Personal Info</text>
+  </g>
+
+  <g id="Content" transform="translate(16,130)">
+    <g id="NameField" filter="url(#shadow)">
+      <rect x="0" y="0" width="358" height="56" rx="15" fill="white" stroke="#0D47A1" stroke-width="1.5"/>
+      <circle cx="24" cy="28" r="8" fill="#0D47A1"/>
+      <text x="44" y="34" fill="#7A8597" font-size="16" font-family="Arial, sans-serif">Name</text>
+    </g>
+
+    <g id="UsernameField" transform="translate(0,72)" filter="url(#shadow)">
+      <rect x="0" y="0" width="358" height="56" rx="15" fill="white" stroke="#0D47A1" stroke-width="1.5"/>
+      <text x="24" y="34" fill="#0D47A1" font-size="20" font-family="Arial, sans-serif">@</text>
+      <text x="44" y="34" fill="#7A8597" font-size="16" font-family="Arial, sans-serif">Username</text>
+    </g>
+
+    <g id="AgeBlock" transform="translate(0,148)">
+      <text x="0" y="20" fill="#0D47A1" font-size="22" font-family="Arial, sans-serif" font-weight="600">Age: 25</text>
+      <line x1="0" y1="44" x2="358" y2="44" stroke="#90CAF9" stroke-width="6" stroke-linecap="round"/>
+      <line x1="0" y1="44" x2="80" y2="44" stroke="#1976D2" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="80" cy="44" r="9" fill="#1976D2"/>
+    </g>
+
+    <g id="CountryDropdown" transform="translate(0,230)" filter="url(#shadow)">
+      <rect x="0" y="0" width="358" height="56" rx="15" fill="white" stroke="#0D47A1" stroke-width="1.5"/>
+      <text x="20" y="34" fill="#2A2E35" font-size="16" font-family="Arial, sans-serif">United States</text>
+      <path d="M328 24L338 24L333 32Z" fill="#0D47A1"/>
+    </g>
+
+    <g id="SaveButton" transform="translate(59,326)">
+      <rect x="0" y="0" width="240" height="52" rx="26" fill="#0D47A1"/>
+      <text x="120" y="33" text-anchor="middle" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="700">Save Changes</text>
+    </g>
+  </g>
+</svg>
